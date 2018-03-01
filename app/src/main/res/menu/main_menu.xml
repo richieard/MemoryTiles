@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item android:title="start"
+    app:showAsAction="always"
+    android:id="@+id/start_menu"
+    android:icon="@drawable/ic_done"
+    android:contentDescription="New Game"
+    />
+
+<item android:title="@string/leaderboard"
+    app:showAsAction="always"
+    android:id="@+id/leader_menu"
+    android:icon="@drawable/ic_list"
+    android:contentDescription="LeaderBoard"
+    />
+</menu>

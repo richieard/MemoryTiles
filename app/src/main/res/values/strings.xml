@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MemoryTiles</string>
+    <string name="player_name_hint">Player\'s Name</string>
+    <string name="player_score_hint">Player\'s Score</string>
+    <string name="player">player</string>
+    <string name="new_game">New Game</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="playerempty">Please enter a name!</string>
+    <string name="playerspace">Player name cannot contain spaces!</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="message">Message</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="leadercleared">LeaderBoard is cleared</string>
+    <string name="leadernotclear">LeaderBoard not cleared</string>
+    <string name="downloaded">LeaderBoard updated</string>
+    <string name="notdownloaded">LeaderBoard not downloaded</string>
+    <string name="leaderclearconfirm">Do you wish to clear the LeaderBoard?</string>
+    <string name="downloadconfirm">Make sure you have already uploaded your highscores before
+                                   proceeding. This will replace your current highscores with
+                                   global highscores, do you wish to proceed? </string>
+    <string name="uploaded">Scores uploaded</string>
+    <string name="nameTooLong">Player name is too long!</string>
+    <string name="timer_hint">Time Left:</string>
+    <string name="name_display">Name:</string>
+    <string name="score_display">Score:</string>
+</resources>

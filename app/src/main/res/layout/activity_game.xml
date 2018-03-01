@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zhengr.memorytiles.GameActivity">
+
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        tools:text="@string/player_name_hint"/>
+
+    <TextView
+        android:id="@+id/player_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        tools:text="@string/player_score_hint"/>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        tools:text="@string/timer_hint"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <ImageButton
+            android:id="@+id/b0"
+            style="@style/box"/>
+
+        <ImageButton
+            android:id="@+id/b1"
+            style="@style/box"/>
+
+        <ImageButton
+            android:id="@+id/b2"
+            style="@style/box"/>
+
+        <ImageButton
+            android:id="@+id/b3"
+            style="@style/box"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <ImageButton
+            android:id="@+id/b4"
+            style="@style/box"/>
+
+        <ImageButton
+            android:id="@+id/b5"
+            style="@style/box"/>
+
+        <ImageButton
+            android:id="@+id/b6"
+            style="@style/box"/>
+
+        <ImageButton
+            android:id="@+id/b7"
+            style="@style/box"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <ImageButton
+            android:id="@+id/b8"
+            style="@style/box"/>
+
+        <ImageButton
+            android:id="@+id/b9"
+            style="@style/box"/>
+
+        <ImageButton
+            android:id="@+id/b10"
+            style="@style/box"/>
+
+        <ImageButton
+            android:id="@+id/b11"
+            style="@style/box"/>
+
+    </LinearLayout>
+
+</LinearLayout>
